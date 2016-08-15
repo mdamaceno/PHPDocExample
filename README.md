@@ -6,11 +6,17 @@ Firstly, run ``composer install`` to install the dependencies ([PHPDoc](https://
 
 ## Tests
 
-``vendor/phpunit/phpunit/phpunit -c phpunit.xml``
+``
+vendor/phpunit/phpunit/phpunit -c phpunit.xml
+``
 
 ## Docs
 
-To generate docs, run ``vendor/phpdocumentor/phpdocumentor/bin/phpdoc -d ./src -t ./docs/app``.
+To generate docs, run
+
+``
+vendor/phpdocumentor/phpdocumentor/bin/phpdoc -d ./src -t ./docs/app
+``
 
 ## Contribution workflow
 
