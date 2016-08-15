@@ -2,12 +2,12 @@
 
 ## Usage
 
-Firstly, run ``composer install`` to install the dependencies ([PHPDoc](https://www.phpdoc.org/) and [PHPUnit](https://phpunit.de/)).
+Firstly, run ``composer install`` in project root folder to install the dependencies ([PHPDoc](https://www.phpdoc.org/) and [PHPUnit](https://phpunit.de/)).
 
 ## Tests
 
 ``
-vendor/phpunit/phpunit/phpunit -c phpunit.xml
+$ vendor/phpunit/phpunit/phpunit -c phpunit.xml
 ``
 
 ## Docs
@@ -15,7 +15,7 @@ vendor/phpunit/phpunit/phpunit -c phpunit.xml
 To generate docs, run
 
 ``
-vendor/phpdocumentor/phpdocumentor/bin/phpdoc -d ./src -t ./docs/app
+$ vendor/phpdocumentor/phpdocumentor/bin/phpdoc -d ./src -t ./docs/app
 ``
 
 ## Contribution workflow
