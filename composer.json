@@ -1,0 +1,17 @@
+{
+    "name": "emiolo/testphpdoc",
+    "authors": [{
+        "name": "Marco Damaceno",
+        "email": "maadmaaceno@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Marco\\TestDoc\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/phpunit": "^5.5"
+    }
+}
